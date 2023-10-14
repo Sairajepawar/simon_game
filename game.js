@@ -5,7 +5,7 @@ var noOfLevel = 1;
 var pre;
 function soundOnClick(temp)
 {
-    var path = "/sounds/"+temp+".mp3";
+    var path = "sounds/"+temp+".mp3";
     var audio = new Audio(path);
     audio.play();
 }
